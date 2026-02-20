@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxisCare Physiotherapy - Professional Rehabilitation & Treatment</title>
+    <link rel="stylesheet" href="AxisCare.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="AxisCare_Physiotherapy_Vector.svg" width="400">
+                <span class="brand-text">AxisCare</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Recover. Strengthen. Thrive.</h1>
+            <p>Expert Physiotherapy Treatment & Rehabilitation Services</p>
+            <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Book Appointment</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Sports Injury Rehabilitation</h3>
+                    <p>Comprehensive treatment for athletic injuries with proven recovery protocols and performance enhancement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦴</div>
+                    <h3>Orthopedic Physiotherapy</h3>
+                    <p>Specialized care for bone, joint, and ligament injuries with personalized rehabilitation plans.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧠</div>
+                    <h3>Neurological Therapy</h3>
+                    <p>Expert treatment for neurological conditions including stroke recovery and movement disorders.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍⚕️</div>
+                    <h3>Post-Surgical Rehabilitation</h3>
+                    <p>Guided recovery programs following surgery to restore mobility and strength safely.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💪</div>
+                    <h3>Strength & Conditioning</h3>
+                    <p>Develop functional strength and improve athletic performance through targeted exercises.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧘</div>
+                    <h3>Pain Management</h3>
+                    <p>Advanced techniques to reduce chronic pain and improve quality of life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose AxisCare?</h2>
+                    <p>AxisCare Physiotherapy is committed to delivering exceptional rehabilitation services with evidence-based treatment approaches. Our team of certified physiotherapists combines expertise, compassion, and cutting-edge techniques to help you achieve optimal recovery.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <p>Licensed & Certified Therapists</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <p>State-of-the-Art Equipment</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <p>Personalized Treatment Plans</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <p>Flexible Scheduling</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">Professional Physiotherapy Environment</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"AxisCare helped me recover from my knee surgery faster than expected. The staff was incredibly professional and supportive throughout my journey."</p>
+                    <h4>Sarah Johnson</h4>
+                    <p class="role">Post-Surgical Patient</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"After years of back pain, AxisCare's treatment approach finally gave me relief. I'm grateful for their expertise and dedication."</p>
+                    <h4>Michael Chen</h4>
+                    <p class="role">Chronic Pain Patient</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"As an athlete, I trusted AxisCare with my injury recovery. They got me back in the game stronger than before."</p>
+                    <h4>Emily Rodriguez</h4>
+                    <p class="role">Sports Injury Recovery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form id="appointmentForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="sports">Sports Injury Rehabilitation</option>
+                            <option value="orthopedic">Orthopedic Physiotherapy</option>
+                            <option value="neurological">Neurological Therapy</option>
+                            <option value="postsurgical">Post-Surgical Rehabilitation</option>
+                            <option value="strength">Strength & Conditioning</option>
+                            <option value="pain">Pain Management</option>
+                        </select>
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                        <a href="mailto:ogbike9@gnail.com">
+                        <button type="submit" class="submit-btn">Book Appointment</button>
+                        </a>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Location</h3>
+                        <p>Port Harcourt,<br>Rives State</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p>+234 906 547 7483<br>Mon - Fri: 8am - 6pm<br>Sat: 9am - 2pm</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p>ogbike9@gmail.com<br>osonduikechukwu3@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AxisCare Physiotherapy. All rights reserved.</p>
+            <div class="social-links">
+                 <a href="https://www.Instagram.com/jeffersonchristian14" target="_blank">Instagram</a>
+                 <a href="https://www.linkedin.com/in/Ogbonna Osondu/" target="_blank"">LinkedIn</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AxisCare.js"></script>
+</body>
+</html>
