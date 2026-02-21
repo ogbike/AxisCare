@@ -412,7 +412,7 @@ body {
 .submit-btn {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #007bff;
+  background-color: #008000;
   color: white;
   text-decoration: none;
   border: none;
@@ -425,18 +425,18 @@ body {
 
 /* Hover effect */
 .submit-btn:hover {
-  background-color: #0056b3;
+  background-color: #006400;
 }
 
 /* Active/pressed effect */
 .submit-btn:active {
-  background-color: #004085;
+  background-color: #062E03;
   transform: scale(0.98);
 }
 
 /* Focus effect for accessibility */
 .submit-btn:focus {
-  outline: 2px solid #0056b3;
+  outline: 2px solid #062E03;
   outline-offset: 2px;
 }
 
@@ -620,3 +620,4 @@ body {
     }
 
 }
+
