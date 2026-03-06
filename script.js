@@ -6,6 +6,10 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
+function goToAbout(){
+    window.location.href="about.html";
+}
+
 // Close mobile menu when a link is clicked
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
@@ -110,4 +114,5 @@ document.querySelectorAll('.service-card, .testimonial-card').forEach(card => {
 });
 
 // Initialize active link on page load
+
 updateActiveLink();
